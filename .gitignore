@@ -1,0 +1,60 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build folders
+bin/
+dist/
+build/
+
+# Coverage
+coverage.out
+coverage.html
+
+# Vendor (optional)
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Docker
+docker-data/
+postgres_data/
+
+# Air hot reload
+tmp/
+
+# Generated files
+*.sql.gz
+
+# JetBrains
+*.iml
+
+# SQLite
+*.db
+*.sqlite
+
+# Test cache
+.cache/
+
+# Golang workspace
+go.work
+go.work.sum
